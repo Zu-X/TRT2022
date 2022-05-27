@@ -32,5 +32,5 @@
   
 
 ## 模型优化的难点
-模型在导出时、或用 Polygraphy/Trtexec 解析时、或在 TensorRT 运行时，可能会遇到某些结构无法识别、OP 不支持等问题，故可能需要对模型计算图进行修改、开发 Plugin 等优化手段。
+模型在导出时、或用 Polygraphy/Trtexec 解析时、或在 TensorRT 运行时，可能会遇到某些结构无法识别、OP 不支持等问题，故可能需要修改模型计算图、开发 Plugin 等优化手段。
 
