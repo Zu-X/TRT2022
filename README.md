@@ -28,7 +28,7 @@
     | CvT-21  | 384x384    | 32M   | 24.9   | 84.9  |
     | CvT-W24 | 384x384    | 277M  | 193.2  | 87.6  |
 - CvT 模型的整体结构如下图所示：
-  ![CvT模型的整体结构](figures/pipeline.svg)
+  ![](figures/pipeline.svg)
   
 
 ## 模型优化的难点
