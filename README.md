@@ -15,18 +15,18 @@
 我们（摆一摆队）在本次 TRT2022 复赛中选题的原始模型来源于 ICCV 2021 一篇有关 Vision Transformer 的文章: [CvT: Introducing Convolutions to Vision Transformers](https://arxiv.org/abs/2103.15808)，CvT 模型的代码链接参见 Microsoft 公开的[官方实现](https://github.com/microsoft/CvT)。
 - CvT 模型的提出主要是为了完成视觉领域的相关任务，如图像分类以及一些下游视觉任务。该模型在 ImageNet 数据集上的实验效果如下：
   - CvT 模型在 ImageNet-1k 预训练后的结果：
-| Model  | Resolution | Param | GFLOPs | Top-1 |
-|--------|------------|-------|--------|-------|
-| CvT-13 | 224x224    | 20M   | 4.5    | 81.6  |
-| CvT-21 | 224x224    | 32M   | 7.1    | 82.5  |
-| CvT-13 | 384x384    | 20M   | 16.3   | 83.0  |
-| CvT-21 | 384x384    | 32M   | 24.9   | 83.3  |
+    | Model  | Resolution | Param | GFLOPs | Top-1 |
+    |--------|------------|-------|--------|-------|
+    | CvT-13 | 224x224    | 20M   | 4.5    | 81.6  |
+    | CvT-21 | 224x224    | 32M   | 7.1    | 82.5  |
+    | CvT-13 | 384x384    | 20M   | 16.3   | 83.0  |
+    | CvT-21 | 384x384    | 32M   | 24.9   | 83.3  |
   - CvT 模型在 ImageNet-22k 预训练后的结果：
-| Model   | Resolution | Param | GFLOPs | Top-1 |
-|---------|------------|-------|--------|-------|
-| CvT-13  | 384x384    | 20M   | 16.3   | 83.3  |
-| CvT-21  | 384x384    | 32M   | 24.9   | 84.9  |
-| CvT-W24 | 384x384    | 277M  | 193.2  | 87.6  |
+    | Model   | Resolution | Param | GFLOPs | Top-1 |
+    |---------|------------|-------|--------|-------|
+    | CvT-13  | 384x384    | 20M   | 16.3   | 83.3  |
+    | CvT-21  | 384x384    | 32M   | 24.9   | 84.9  |
+    | CvT-W24 | 384x384    | 277M  | 193.2  | 87.6  |
 - CvT 模型的整体结构如下图所示：
 
 ## 模型优化的难点
